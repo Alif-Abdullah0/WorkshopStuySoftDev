@@ -1,3 +1,8 @@
+#Alif Abdullah
+#SoftDev
+#K05 -- A program that prints a random name from one of the two periods of the Software Development Class.
+#2021-09-26
+
 #What we discussed: We decided to send each other the code we had with our original trios. We then chose to pick the parts of the code that would make the program do as little work as possible to give us a random name, while also making the code as easy to read and understand as possible. To this end, we chose to store our names in two seperate arrays, choose a random index and store those results in two variables, and then print out a name from either one of the periods. Each of these three sections of code were taken from our individual programs.
 #Discoveries: One of the group members did not know Kevin Cao was in period 2, and put Kevin in period 1. That was resolved.
 #Questions: None, really
