@@ -15,3 +15,8 @@ Lists are useful as they associate a set of elements to a set of corresponding i
 Markdown is a robust typing language that offers users the ability to style their text in a matter of seconds. It combines the structure of html with the aesthetic prowess of css in an easy to learn language. 
 
 ## Weighted Randomized Selection
+We randomly generated a number from 0 to 1000, and stored it into the variable x. </br>
+We then iterated through the function parameter reader, a dictionary. </br>
+We then added each of the value elements, times 10 (this is done to accomodate the fact that a random number is chosen out of 1000), to the variable y, initialized to 0. </br>
+Whenever y is greater than x, the program will print out the key associated to the current value, and stop. </br>
+The program selection is weighted due to the intervals set by the percentages.
