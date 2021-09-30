@@ -24,6 +24,19 @@ with open('occupations.csv', newline='') as csvfile:
 * Markdown is a robust typing language that offers users the ability to style their text in a matter of seconds. It combines the structure of html with the aesthetic prowess of css in an easy to learn language. </br>
 * Here is a helpful guide : https://guides.github.com/features/mastering-markdown/ </br>
 ## Weighted Randomized Selection
+```Python
+def randomJob(reader):
+        # Pick some random int x (0,1000)
+        x = random.randint(0, 1000)
+        y = 0
+
+        # Find where the x falls in the class/job intervals
+        for i in reader:
+                y += reader[i] * 10
+                if (y > x):
+                        print(i)
+                        break
+```
 * We randomly generated a number from 0 to 1000, and stored it into the variable x. </br>
 * We then iterated through the function parameter reader, a dictionary. </br> 
 * We then added each of the value elements, times 10 (this is done to accomodate the fact that a random number is chosen out of 1000), to the variable y, initialized to 0. </br>
