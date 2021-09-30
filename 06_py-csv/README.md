@@ -4,6 +4,12 @@ The Best Team - Alif Abdullah, Andrew Juang, Joshua Kloepfer </br>
 2021-09-29 </br>
 
 ## File Handling
+```Python
+with open('occupations.csv', newline='') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+                finalDict[row['Job Class']] = float(row['Percentage'])
+```
 * We used the csv module's DictReader function to convert the csv file into a dictionary. </br>
 * We opened up the csv file with the "with open" keywords. </br>
 * We stored the contents of the csv file in the variable reader. </br>
