@@ -1,0 +1,49 @@
+The Best Duo - Alif Abdullah, Joshua Kloepfer
+SoftDev
+K09 -- To respond to the questions posed in the app.py program, and reflect on and respond to our answers after running the program via flask.
+2021-10-02
+
+Q0 Response: I have seen this syntax, or at least, some version of it, in Javascript, when developers want to signal to other developers that a particular variable should not
+be manipulated outside of an object's own setter methods. Outside of JS, I have not seen the usage of underscores for spaces in another language.
+
+After running the program, I have not changed my answer to this.
+
+Q1 Response: In Java, as in Python, and I believe in Javascript as well, the '/' character, or backslash character, signals the start of an escape sequence, which, when
+combined with another character, will trigger a special event to happen when a string is used in code or displayed on a website, be it a newline, a tab space, or some other
+type of text event. However, in this context, maybe it will print to some sort of console or home directory?
+
+After running the program, I do not have more points of reference for the meaning of '/'.
+
+Q2 Response: I do not know where it will print to definitively - I can only guess it will print in some sort of console. It may print the name Flask, or Flask and its version
+number, because of line 2: app = Flask(__name__), and how app may have gotten its name from Flask, and how line 7: print(__name__) will print out the app's name.
+
+Well, funny enough, this line appears not to print anywhere. However, there is a line in the terminal with the text that returned after running app.py that states, "Serving
+Flask app 'app'," and I assume the 'app' may be the __name__ that was being printed out.
+
+Q3 Response: This will not appear anywhere, as no is printing the value of the hello_world() function. Even if it is being run in line 9: app.run(), that line is not printing the value of app.run().
+
+Ironically, I was wrong here as well. The words "No hablo queso!" appear at the following web address, http://127.0.0.1:5000/, in what appears to be an empty website. The text is written in 12 point, Times New Roman font, I believe.
+
+Q4 Response: I have seen similar constructs in Javascript and Java, with the usage of Objects and their methods. I believe strings function similarly in both languages, with programmers being able to use a method with the string in this format. 
+
+I have nothing noteworthy to add here as well, much like with my response to Q0.
+
+NOTEWORTHY NOTABLES: 
+This is the code I received in Git Bash upon running the command "(<venvname>)$ python3 app.py:
+
+; * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+
+This is the code I received when I entered the website: "http://127.0.0.1:5000/":
+
+127.0.0.1 - - [02/Oct/2021 19:37:40] "GET / HTTP/1.1" 200 -
+
+And this is the code I received when, in my attempt to copy the other bits of terminal text, I used the command Ctrl+C, and ended up closing my flask app inadvertently:
+
+__main__
+
+I also was no longer able to connect to the website at "http://127.0.0.1:5000/".
