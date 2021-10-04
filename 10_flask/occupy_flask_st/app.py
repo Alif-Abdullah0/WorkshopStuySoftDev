@@ -1,3 +1,9 @@
+'''
+The Best Team - Alif Abdullah, Andrew Juang, Joshua Kloepfer
+SoftDev
+K10 -- To review several iterations of a flask app, and to make our own flask app that displays the results of the random occupation picker code we wrote.
+2021-10-04
+'''
 import csv
 import random
 from flask import Flask
