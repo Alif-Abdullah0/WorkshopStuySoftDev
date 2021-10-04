@@ -9,7 +9,7 @@ def randomJob(reader):
         for i in reader:
                 y += reader[i] * 10
                 if (y > x):
-                        return("The Best Team -- Alif Abdullah, Andrew Juang, Joshua Kloepfer<br>List of occupations: <br>" + str(list(reader.keys())[:len(list(reader.keys()))-1]) + "<br><br>Chosen Occupation: " + str(i))
+                        return("The Best Team -- Alif Abdullah, Andrew Juang, Joshua Kloepfer<br><br>List of occupations: <br>" + str(list(reader.keys())[:len(list(reader.keys()))-1]) + "<br><br>Chosen Occupation: " + str(i))
                         break
 with open('occupations.csv', newline='') as csvfile:
         reader = csv.DictReader(csvfile)
