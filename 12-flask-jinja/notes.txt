@@ -1,19 +1,21 @@
 The Best Team - Alif Abdullah, Andrew Juang, Joshua Kloepfer
 SoftDev
-K12 --
+K12 -- Rendering Templates
 2021-10-07
 
+Expected Behaviors:
 Q0: What happens if you remove render_template from this line?
 It says render_template is not defined because you call render_template in the
 test_templt() function, but that function is not defined.
 
 Q1: Can all of your teammates confidently predict the URL to use to load this page?
-It should, in theory, be localhost:5000/my_foist_template, or some variant of that.
-It seems we are correct, in a sense. The url, in its entirety, is http://127.0.0.1:5000/my_foist_template.
+http://127.0.0.1:5000/my_foist_template. @app.route() specifies the route as
+/my_foist_template
 
-Q2:
-'model_tmplt.html' should, in theory, be the file name of the new template. foo="fooooo" should be the title of the webpage spun up in Flask,
-and collection=coll should take in the data structure variable coll and use it in some way on the website.
+Q2: What is the significance of each argument?
+render_template goes to the file 'model_tmplt.html' and renders it. The foo argument
+replaces the foo title in the html file with the value provided. The collection argument
+accepts the coll defined in app.py and displays each item [0,1,2...]
 
-After running the app, we are not too sure what occurred to 'model_tmplt.html,' but the contents of the coll data structure have been displayed on the 
-locally hosted web site.
+Results:
+It works as expected. render_template renders the model_tmplt.html file in templates folder.
