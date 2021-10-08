@@ -1,0 +1,19 @@
+The Best Team - Alif Abdullah, Andrew Juang, Joshua Kloepfer
+SoftDev
+K12 --
+2021-10-07
+
+Q0: What happens if you remove render_template from this line?
+It says render_template is not defined because you call render_template in the
+test_templt() function, but that function is not defined.
+
+Q1: Can all of your teammates confidently predict the URL to use to load this page?
+It should, in theory, be localhost:5000/my_foist_template, or some variant of that.
+It seems we are correct, in a sense. The url, in its entirety, is http://127.0.0.1:5000/my_foist_template.
+
+Q2:
+'model_tmplt.html' should, in theory, be the file name of the new template. foo="fooooo" should be the title of the webpage spun up in Flask,
+and collection=coll should take in the data structure variable coll and use it in some way on the website.
+
+After running the app, we are not too sure what occurred to 'model_tmplt.html,' but the contents of the coll data structure have been displayed on the 
+locally hosted web site.
