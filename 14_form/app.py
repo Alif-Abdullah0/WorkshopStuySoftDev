@@ -8,16 +8,17 @@ app = Flask(__name__)
 
 @app.route("/")
 def login_form():
-    return render_template("login.html")
+    return render_template("login.html",tnpg="The Best Laptop: Alif Abdullah, Kevin Cao, Jonathan Wu")
 
 @app.route("/auth")
 def response():
-    user=request[0]
-    print("\n\n\n\n")
-    print(user)
-    return render_template("response.html", username=user, request_method="GET")
+    req_method = ""
+    if request.method == 'POST':
+        req_method = 'post'
+    elif request.method == 'GET':
+        req_method = 'get'
+    return render_template("response.html", tnpg="The Best Laptop: Alif Abdullah, Kevin Cao, Jonathan Wu",username=request.args['username'], greeting="We apologize for the inconvenience, your Exaltedness.",request_method=req_method)
     
-
 if __name__ == "__main__":
     app.debug = True
     app.run()
