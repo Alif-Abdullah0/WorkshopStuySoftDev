@@ -1,0 +1,7 @@
+Espresso Knights - Alif Abdullah, Daniel Sooknanan
+SoftDev
+K18 -- To mimic Mr. Mykolyk's Stylish Website
+2021-11-22
+time spent: 1.5 hours
+
+This took a LOT longer than expected, especially aligning nav foo with main header foo to be on the same line. Using position:absolute and position:relative, seemed to do the trick.
