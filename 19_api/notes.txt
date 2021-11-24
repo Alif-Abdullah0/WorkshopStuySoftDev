@@ -1,0 +1,9 @@
+# Daniel Sooknanan (Sussy), Alif Abdullah (The Eagle in the Sand)
+# SoftDev
+# K19 API Shenanigans
+# 2021-11-23
+# time spent: 20 minutes
+
+There were a few hiccups here and there, what with properly obtaining and loading image files, but things were resolved smoothly. 
+
+On Alif's end, there appeared to pop up this error whenever he tried to use openurl for the urllib.request module: urllib.error.URLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed. He resolved it through some intertrash consultation (importing ssl and setting the context to be unverified), but would like further instruction on the error, in regards to the best way to handle going forward into the future. 
