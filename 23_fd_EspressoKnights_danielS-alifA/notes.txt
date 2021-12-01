@@ -1,0 +1,21 @@
+Espresso Knights - Daniel Sooknanan (Sussy), Alif Abdullah (The Eagle in the Sand)
+K23 - Building a Foundation
+21-01-12
+Time Elapsed: 1 hr
+
+DISCO: 
+
+QCC: 
+Foundation appears to be lighter than Bootstrap to load, but with lesser features. I will say that the 
+documentation for Bootstrap is more appealing and easier to read than with Foundation. 
+
+I do not like the video based approach foundation tries to put onto readers of its website. I prefer snappier,
+concise explanations of code, like Bootstrap has.
+
+Q0: I had to use the foundation documentation extensively. The on-ramp page 
+of my neigboring duo, though pleasant to look at, did not include the code they
+used to construct the features they had on their page. 
+
+Q1: I prefer Bootstrap. It's the framework I know about longer, and its the framework whose 
+documentation seems easier to read. I can style pages quicker and better with Bootstrap than
+I ever could with Foundation.
