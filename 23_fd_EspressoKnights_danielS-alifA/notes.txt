@@ -20,7 +20,7 @@ used to construct the features they had on their page.
 Bootstrap Documentation: https://getbootstrap.com/docs/5.1/getting-started/introduction/
 
 As for verbal consultations, we had our neighboring duo talk in-brief about the usage
-in their site of cards in their site, but that was all.
+ of cards in their site, but that was all.
 
 Q1: I prefer Bootstrap. It's the framework I know about longer, and its the framework whose
 documentation seems easier to read. I can style pages quicker with Bootstrap than
