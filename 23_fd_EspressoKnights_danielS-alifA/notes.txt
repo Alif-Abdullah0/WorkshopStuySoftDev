@@ -1,21 +1,28 @@
 Espresso Knights - Daniel Sooknanan (Sussy), Alif Abdullah (The Eagle in the Sand)
 K23 - Building a Foundation
 21-01-12
-Time Elapsed: 1 hr
+Time Elapsed: 1 hour
 
-DISCO: 
+DISCO: One big discovery was the fact that Foundation and Bootstrap both utilize a class-based approach
+towards styling html elements. An earlier discovery with Bootstrap was the fact that one could give an
+HTML element multiple classes by putting spaces between class names in the value for the class attribute.
 
-QCC: 
-Foundation appears to be lighter than Bootstrap to load, but with lesser features. I will say that the 
-documentation for Bootstrap is more appealing and easier to read than with Foundation. 
+QCC:
+Foundation appears to be lighter than Bootstrap to load, but with lesser features. I will say that the
+documentation for Bootstrap is more appealing and easier to read than with Foundation.
 
 I do not like the video based approach foundation tries to put onto readers of its website. I prefer snappier,
-concise explanations of code, like Bootstrap has.
+concise explanations of code, like Bootstrap's documentation has.
 
-Q0: I had to use the foundation documentation extensively. The on-ramp page 
-of my neigboring duo, though pleasant to look at, did not include the code they
-used to construct the features they had on their page. 
+Q0: I had to use the foundation documentation extensively. The on-ramp page
+of my neighboring duo, though pleasant to look at, did not include the code they
+used to construct the features they had on their page.
+Bootstrap Documentation: https://getbootstrap.com/docs/5.1/getting-started/introduction/
 
-Q1: I prefer Bootstrap. It's the framework I know about longer, and its the framework whose 
-documentation seems easier to read. I can style pages quicker and better with Bootstrap than
-I ever could with Foundation.
+As for verbal consultations, we had our neighboring duo talk in-brief about the usage
+in their site of cards in their site, but that was all.
+
+Q1: I prefer Bootstrap. It's the framework I know about longer, and its the framework whose
+documentation seems easier to read. I can style pages quicker with Bootstrap than
+I ever could with Foundation. Furthermore, Bootstrap just looks nicer overall than Foundation
+with less effort, which ties in to the weight of Bootstrap vs Foundation.
