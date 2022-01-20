@@ -1,0 +1,13 @@
+ElmosStyrofoamChair - Alif Abdullah, Jesse Xie, Raymond Yeung
+SoftDev
+K24 -- Provisioning Droplets
+2022-01-12
+time spent: 8 hrs
+
+Notable Thingies:
+
+if __name__ == "__main__":
+    app.run()
+
+so important. so, so important
+
