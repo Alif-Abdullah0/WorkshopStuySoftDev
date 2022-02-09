@@ -1,0 +1,7 @@
+Alif Abdullah, Alejandro Alonso, Shadman Rakib
+SoftDev pd0
+K28 - Getting more comfortable with the dev console and the DOM
+2022-02-08
+
+Not much really to note. In time, as we practice this more and more, we will become more familiar with the 
+concepts, but for now, we are fine. 
