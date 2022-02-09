@@ -98,4 +98,4 @@ fibo.innerHTML= "The result of the Fibonnaci function with input 7 is " + fib(7)
 let facto = document.getElementById("fact");
 facto.innerHTML= "The result of the factorial function with input 6 is " + fact(6);
 let gcdo = document.getElementById("gcd");
-gcdo.innerHTML= "The result of the greatest common denominator function with inputs 42 and 24 is " + gcd(42, 24);
+gcdo.innerHTML= "The result of the gcd with inputs 42 and 24 is " + gcd(42, 24);
