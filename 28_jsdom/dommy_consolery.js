@@ -84,13 +84,12 @@ function fact(n){
 }
 
 function gcd(a, b) {
-	let min = 0;
+  let min = 0;
 	if ( a <= b ) { min = a; }
   else { min = b; }
   while ( min > 1 ) {
-  if ( a % min == 0 && b % min == 0 )
-  { return min; }
-  min --;
+    if ( a % min == 0 && b % min == 0 ) { return min; }
+    min --;
   }
 }
 
