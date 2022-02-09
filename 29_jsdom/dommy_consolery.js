@@ -1,7 +1,7 @@
-// Alif Abdullah, Alejandro Alonso, Shadman Rakib
+// Alif Abdullah, Noakai Naronesty
 // SoftDev
-// K28 -- Getting more comfortable with the dev console and the DOM
-// 2022-02-08
+// K29 - JS Realtime Text Rendering
+// 2022-02-09
 // --------------------------------------------------
 
 
@@ -99,4 +99,19 @@ let facto = document.getElementById("fact");
 facto.innerHTML= "The result of the factorial function with input 6 is " + fact(6);
 let gcdo = document.getElementById("gcd");
 gcdo.innerHTML= "The result of the gcd function with inputs 42 and 24 is " + gcd(42, 24);
+let buttonRender = document.getElementById("buttonRender");
+function fib7() {
+  buttonRender.innerHTML = "The result of the Fibonnaci Function with input 7 is " + fib(7);
+}
+function fact8() {
+  buttonRender.innerHTML = "The result of the Factorial Function with input 8 is " + fact(8);
+}
+
+function gcd54_36() {
+  buttonRender.innerHTML = "The result of the GCD Function with inputs 54 and 36 is " + gcd(54, 36);
+}
+document.getElementById("fib7").addEventListener('click', fib7);
+document.getElementById("fact8").addEventListener('click', fact8);
+document.getElementById("gcd54-36").addEventListener('click', gcd54_36);
+
 stripe();
