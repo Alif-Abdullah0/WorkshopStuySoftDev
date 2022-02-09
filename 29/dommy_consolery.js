@@ -99,3 +99,4 @@ let facto = document.getElementById("fact");
 facto.innerHTML= "The result of the factorial function with input 6 is " + fact(6);
 let gcdo = document.getElementById("gcd");
 gcdo.innerHTML= "The result of the gcd function with inputs 42 and 24 is " + gcd(42, 24);
+stripe();
