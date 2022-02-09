@@ -69,17 +69,17 @@ var stripe = function() {
 
 function fib(n){
     if (n <= 1){
-        return n
+        return n;
     } else {
-        return fib(n - 1) + fib(n - 2)
+        return fib(n - 1) + fib(n - 2);
     }
 }
 
 function fact(n){
     if (n == 0){
-        return 1
+        return 1;
     } else {
-        return fact(n - 1) * n
+        return fact(n - 1) * n;
     }
 }
 
@@ -87,7 +87,7 @@ function gcd(a, b) {
   let min = 0;
   if ( a <= b ) { min = a; }
   else { min = b; }
-  while ( min > 1 ) {
+  while ( min >= 1 ) {
     if ( a % min == 0 && b % min == 0 ) { return min; }
     min --;
   }
