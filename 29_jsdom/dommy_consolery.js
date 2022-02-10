@@ -100,6 +100,7 @@ facto.innerHTML= "The result of the factorial function with input 6 is " + fact(
 let gcdo = document.getElementById("gcd");
 gcdo.innerHTML= "The result of the gcd function with inputs 42 and 24 is " + gcd(42, 24);
 let buttonRender = document.getElementById("buttonRender");
+//The functions below will change text to render the result of a calculator function call
 function fib7() {
   buttonRender.innerHTML = "The result of the Fibonnaci Function with input 7 is " + fib(7);
 }
@@ -110,8 +111,10 @@ function fact8() {
 function gcd54_36() {
   buttonRender.innerHTML = "The result of the GCD Function with inputs 54 and 36 is " + gcd(54, 36);
 }
+// This section of code will attach the above functions, which change the innerHTML of a p tag to render a calculator function output,
+// to the appropriate buttons.
 document.getElementById("fib7").addEventListener('click', fib7);
 document.getElementById("fact8").addEventListener('click', fact8);
 document.getElementById("gcd54-36").addEventListener('click', gcd54_36);
-
+// calling stripe for funsies.
 stripe();
