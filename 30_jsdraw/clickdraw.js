@@ -49,4 +49,4 @@ let bToggler = document.getElementById("buttonToggle");
 bToggler.addEventListener("click", toggleMode);
 let clearB = document.getElementById("buttonClear");
 clearB.addEventListener("click", wipeCanvas);
-0
+
