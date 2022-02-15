@@ -1,3 +1,9 @@
+/*
+Team Big Bird Apocalypse :: Alif Abdullah, Noakai Naronesty, Shadman Rakib
+SoftDev pd2
+K30 __ canvas based JS drawing
+2022-02-14
+*/
 let c = document.getElementById("slate");
 let ctx = c.getContext("2d");
 let mode = "rect";
@@ -49,4 +55,3 @@ let bToggler = document.getElementById("buttonToggle");
 bToggler.addEventListener("click", toggleMode);
 let clearB = document.getElementById("buttonClear");
 clearB.addEventListener("click", wipeCanvas);
-
