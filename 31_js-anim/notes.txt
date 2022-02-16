@@ -1,0 +1,6 @@
+Team Big Bird Apocalypse :: Alif Abdullah, Noakai Naronesty, Shadman Rakib
+SoftDev pd2
+K31 __ canvas based JS animation
+2022-02-15
+
+Check animate.js for in-file comments
