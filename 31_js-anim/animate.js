@@ -38,16 +38,16 @@ let drawDot = () => {
     window.cancelAnimationFrame(requestID);
   }
 
-  if (radius >= c.width/4) {
+  if (radius >= c.width/2) {
     growing = false;
   } else if (radius <= 0) {
     growing = true;
   }
 
   if (growing) {
-    radius++;
+    radius+=2;
   } else {
-    radius--;
+    radius-=2;
   }
 
   // clear the previous frame's drawing
@@ -56,8 +56,6 @@ let drawDot = () => {
   // draw the new frame's painting
   ctx.beginPath();
   ctx.arc(c.width/2, c.height/2, radius, 0, Math.PI * 2);
-  ctx.arc(c.width/3, c.height/1.5, radius, 0, Math.PI * 2);
-  ctx.arc(2*c.width/3, c.height/1.5, radius, 0, Math.PI * 2);
   ctx.fill();
   ctx.closePath();
 
