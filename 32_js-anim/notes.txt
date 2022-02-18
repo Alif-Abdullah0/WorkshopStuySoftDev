@@ -1,0 +1,11 @@
+Team Big Bird Apocalypse :: Alif Abdullah, William Chen, Shadman Rakib
+SoftDev pd2
+K32 __ canvas based JS drawing animation
+2022-02-17
+
+You can add multiple addEventListener functions for the same event.
+
+Ex:
+
+element.addEventListener(event, someFunc);
+element.addEventListener(event, someOtherFunc);
