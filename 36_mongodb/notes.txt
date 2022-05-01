@@ -1,0 +1,10 @@
+Ailf Adbullah
+SoftDev pd2
+K36 -- Mongo Terminal Work
+2022-04-30
+
+I quite like the hands on work, especially in the realm
+of terminal queries. For the longest time, I was conscious 
+of how SQLite databases would scale to larger scale applications,
+but I am glad MongoDB works as well as it does, since I have heard
+it scales well with larger sets of data than SQLite does. 

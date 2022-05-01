@@ -1,0 +1,10 @@
+Ailf Adbullah
+SoftDev pd2
+K35 -- Mongo Tasting Course
+2022-04-30
+
+Huh. Interesting. 
+This Mongo stuff is quite fascinating. However,
+we've just been given a set of tools to help ...
+"get our feet wet" in the realm of Mongo. Where do 
+we go from here, I wonder?
