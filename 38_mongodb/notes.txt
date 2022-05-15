@@ -1,0 +1,10 @@
+Ailf Adbullah
+SoftDev pd2
+K38 -- Mongo's Inferno
+2022-05-15
+
+This was quite the lengthy chapter, yet, at the end of it, I feel better 
+equipped with Mongo then ever. I was considering never using MongoDB during this 
+chapter's run through, but sitting where I am now, I can see this as a serious replacement
+for SQLite. I am keeping Qina Liu's comments about using SQL vs NoSQL databases for 
+certain scenarios in mind.

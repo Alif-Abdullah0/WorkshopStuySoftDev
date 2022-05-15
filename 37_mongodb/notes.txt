@@ -1,0 +1,7 @@
+Ailf Adbullah
+SoftDev pd2
+K37 -- DocuInsert, DocuDelete
+2022-05-15
+
+This isn't so bad. I like MongoDB. It's nice and intuitive. 
+Plus, sticking to convention with method names is always a plus. 
