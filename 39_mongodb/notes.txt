@@ -1,0 +1,8 @@
+Ailf Adbullah
+SoftDev pd2
+K39 -- Mongo's Aggregation
+2022-05-15
+
+This was quite the dense chapter. Some of the most powerful commands were located here.
+I will need to revisit this chapter, should I use MongoDB. I suspect several rewatches 
+(in the future - this chapter has been enough MongoDB) will serve me well.
